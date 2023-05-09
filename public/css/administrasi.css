@@ -7,3 +7,10 @@
 .bg-purple {
     background: #C95DBE;
 }
+.back-card {
+    margin-left: 0;
+    margin-right: 0;
+    background: #FEFEFE;
+    opacity: 0.48;
+    height: 100%;
+}

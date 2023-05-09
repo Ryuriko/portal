@@ -26,4 +26,23 @@ class AkademikController extends Controller
     {
         return view('akademik.transkrip');
     }
+
+    // Additional
+    public function DetailKRS()
+    {
+        return view('akademik.detail.krs');
+    }
+    public function DetailKHS()
+    {
+        return view('akademik.detail.khs');
+    }
+    public function TambahKRS()
+    {
+        return view('akademik.detail.TambahKRS');
+    }
+    public function DetailTranskrip()
+    {
+        return view('akademik.detail.transkrip');
+    }
+    
 }

@@ -1,24 +1,24 @@
 @extends('layouts.akademik')
 
 @section('content')
-<div class="row justify-content-center sec-1" id="biodata">
+<div class="row justify-content-center sec-1">
     <div class="col rounded-5 py-md-3 py-2 px-5">
 
-        {{-- Pengumuman --}}
-        <div class="row text-center my-3">
-            <div class="col-4 text-start bg-orange text-light ps-md-5 pt-2">
+        <div class="row text-center px-md-5 my-3">
+            <div class="col-md-4 col-6 text-start bg-orange text-light ps-md-5 pt-2">
                 <p class="h4 text">Kartu Rencana Studi</p>
             </div>
             <div class="col" style="background: #DBDBDB;">
             </div>
         </div>
 
-        <a href="#" class="btn fw-bold fs-5 mt-5 text-light bg-orange">Tambah Rencana Studi</a>            
+        <a href="/akademik/detail/tambahKRS" class="btn btn-warning fw-bold fs-5 ms-md-5 ms-2 mt-5 text-light bg-orange">Tambah Rencana Studi</a>            
 
         <div class="row justify-content-center mt-4">
             <div class="col-11 shadow-lg rounded-5 py-4 px-5">
                 <p>Kartu rencana studi saat ini</p>
 
+                <div class="table-responsive">
                 <table class="table table-striped text-center">
                     <thead class="bg-orange">
                       <tr>
@@ -35,33 +35,35 @@
                         <td>2022</td>
                         <td>Ganjil</td>
                         <td>10 MK</td>
-                        <td><a href="#" class="btn btn-dark">Detail</a></td>
+                        <td><a href="/akademik/detail/krs" class="btn btn-dark">Detail</a></td>
                       </tr>
                       <tr>
                         <td>2</td>
                         <td>2022</td>
                         <td>Genap</td>
                         <td>8 MK</td>
-                        <td><a href="#" class="btn btn-dark">Detail</a></td>
+                        <td><a href="/akademik/detail/krs" class="btn btn-dark">Detail</a></td>
                       </tr>
                       <tr>
                         <td>3</td>
                         <td>2023</td>
                         <td>Ganjil</td>
                         <td>12 MK</td>
-                        <td><a href="#" class="btn btn-dark">Detail</a></td>
+                        <td><a href="/akademik/detail/krs" class="btn btn-dark">Detail</a></td>
                       </tr>
                     </tbody>
                   </table>
-            </div>
+                </div>
+                </div>
         </div>
 
         <div class="row justify-content-center mt-5">
             <div class="col-11 shadow-lg rounded-5 py-4 px-5">
                 <p>Kartu rencana studi yang telah ditambahkan</p>
 
+                <div class="table-responsive">
                 <table class="table table-striped text-center">
-                    <thead class="bg-orange">
+                    <thead class="bg-orange fs-6">
                       <tr>
                         <th scope="col">No</th>
                         <th scope="col">Tahun Ajaran</th>
@@ -76,25 +78,12 @@
                         <td>2022</td>
                         <td>Ganjil</td>
                         <td>10 MK</td>
-                        <td><a href="#" class="btn btn-dark">Detail</a></td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>2022</td>
-                        <td>Genap</td>
-                        <td>8 MK</td>
-                        <td><a href="#" class="btn btn-dark">Detail</a></td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>2023</td>
-                        <td>Ganjil</td>
-                        <td>12 MK</td>
-                        <td><a href="#" class="btn btn-dark">Detail</a></td>
+                        <td><a href="#" class="btn btn-primary">Ubah</a></td>
                       </tr>
                     </tbody>
                   </table>
             </div>
+          </div>
         </div>
 
     </div>

@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserRegistrationController;
 use App\Http\Controllers\AkademikController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\AdministrasiController;
 use App\Http\Controllers\Controller;
 
 /*
@@ -29,7 +30,20 @@ Route::get('/profile/dokumen', [ProfileController::class, 'dokumen']);
 
 // Route akademik
 Route::get('/akademik', [AkademikController::class, 'krs']);
+Route::get('/akademik/detail/krs', [AkademikController::class, 'DetailKRS']);
+Route::get('/akademik/detail/tambahKRS', [AkademikController::class, 'TambahKRS']);
 Route::get('/akademik/ifm', [AkademikController::class, 'ifm']);
 Route::get('/akademik/perkuliahan', [AkademikController::class, 'perkuliahan']);
 Route::get('/akademik/khs', [AkademikController::class, 'khs']);
+Route::get('/akademik/detail/khs', [AkademikController::class, 'DetailKHS']);
 Route::get('/akademik/transkrip', [AkademikController::class, 'transkrip']);
+Route::get('/akademik/detail/transkrip', [AkademikController::class, 'DetailTranskrip']);
+
+// Route administrasi
+Route::get('/administrasi', [AdministrasiController::class, 'PengajuanCuti']);
+Route::get('/administrasi/wisuda', [AdministrasiController::class, 'wisuda']);
+Route::get('/administrasi/magang', [AdministrasiController::class, 'magang']);
+Route::get('/administrasi/PindahProdi', [AdministrasiController::class, 'PindahProdi']);
+Route::get('/administrasi/KeluarUntirta', [AdministrasiController::class, 'KeluarUntirta']);
+Route::get('/administrasi/perpustakaan', [AdministrasiController::class, 'perpustakaan']);
+Route::get('/administrasi/perpustakaan/riwayat', [AdministrasiController::class, 'RiwayatPeminjaman']);

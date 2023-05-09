@@ -21,16 +21,26 @@
                   <i class="bi bi-mortarboard-fill"></i> Akademik
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/ifm">Informasi Mata Kuliah</a></li>
+                  <li><a class="dropdown-item" href="/akademik/ifm">Informasi Mata Kuliah</a></li>
                   <li><a class="dropdown-item" href="/akademik">KRS</a></li>
-                  <li><a class="dropdown-item" href="/perkuliahan">Perkuliahan</a></li>
-                  <li><a class="dropdown-item" href="/khs">KHS</a></li>
-                  <li><a class="dropdown-item" href="/transkrip">Transkrip</a></li>
+                  <li><a class="dropdown-item" href="/akademik/perkuliahan">Perkuliahan</a></li>
+                  <li><a class="dropdown-item" href="/akademik/khs">KHS</a></li>
+                  <li><a class="dropdown-item" href="/akademik/transkrip">Transkrip</a></li>
                   {{-- <li><hr class="dropdown-divider"></li> --}}
                 </ul>
               </li>
-              <li class="nav-item rounded-3 px-2" style="{{Request::is('administrasi') ? 'background: rgba(255, 255, 255, 0.33);' : ''}}">
-                <a class="nav-link text-light" href="#"><i class="bi bi-file-earmark-post"></i> Administrasi</a>
+              <li class="nav-item dropdown rounded-3 px-2" style="{{Request::is('administrasi*') ? 'background: rgba(255, 255, 255, 0.33);' : ''}}">
+                <a class="nav-link text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-file-earmark-post"></i> Administrasi
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/administrasi">Pengajuan Cuti</a></li>
+                  <li><a class="dropdown-item" href="/administrasi/wisuda">Wisuda</a></li>
+                  <li><a class="dropdown-item" href="/administrasi/magang">Magang</a></li>
+                  <li><a class="dropdown-item" href="/administrasi/PindahProdi">Pindah Prodi</a></li>
+                  <li><a class="dropdown-item" href="/administrasi/perpustakaan">Perpsustakaan</a></li>
+                  <li><a class="dropdown-item" href="/administrasi/KeluarUntirta">Keluar Untirta</a></li>
+                </ul>
               </li>
               <li class="nav-item rounded-3 px-2" style="{{Request::is('kinerja') ? 'background: rgba(255, 255, 255, 0.33);' : ''}}">
                 <a class="nav-link text-light" href="#"><i class="bi bi-briefcase-fill"></i> Kinerja</a>

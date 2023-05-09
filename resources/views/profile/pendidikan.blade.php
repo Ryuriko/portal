@@ -6,7 +6,6 @@
 
       {{-- Pengumuman --}}
       <div class="row text-center px-4 my-3">
-        
         <div class="col text-start text-danger pt-3" style="background: #FFD6B0;">
           <p>
             Informasi kepada seluruh mahasiswa yang belum mengisi KRS semester Ganjil, harap segera mengisi KRS dikarenakan batas pengisian KRS sampai tanggal 12 Januari 2023

@@ -8,66 +8,66 @@
 
           <div class="row">
             <div class="col-md-2 col-4">
-              <label class="form-label text-danger" for="nim">NIM</label>
+              <label class="form-label text-orange" for="nim">NIM</label>
               <input type="text" class="form-control" id="nim" name="nim">
             </div>
             <div class="col">
-              <label for="nama" class="form-label text-danger">Nama</label>
+              <label for="nama" class="form-label text-orange">Nama</label>
               <input type="text" class="form-control" id="nama" name="nama">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="fakultas" class="form-label text-danger">Fakultas</label>
+              <label for="fakultas" class="form-label text-orange">Fakultas</label>
               <input type="text" class="form-control" id="fakultas" name="fakultas">
             </div>
             <div class="col">
-              <label for="prodi" class="form-label text-danger">Program Studi</label>
+              <label for="prodi" class="form-label text-orange">Program Studi</label>
               <input type="text" class="form-control" id="prodi" name="prodi">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="StatusPerkuliahan" class="form-label text-danger">Status Perkuliahan</label>
+              <label for="StatusPerkuliahan" class="form-label text-orange">Status Perkuliahan</label>
               <input type="text" class="form-control" id="StatusPerkuliahan" name="StatusPerkuliahan">
             </div>
             <div class="col">
-              <label for="TTL" class="form-label text-danger">Tempat, Tanggal Lahir</label>
+              <label for="TTL" class="form-label text-orange">Tempat, Tanggal Lahir</label>
               <input type="text" class="form-control" id="TTL" name="TTL">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="JenisKelamin" class="form-label text-danger">Jenis Kelamin</label>
+              <label for="JenisKelamin" class="form-label text-orange">Jenis Kelamin</label>
               <input type="text" class="form-control" id="JenisKelamin" name="JenisKelamin">
             </div>
             <div class="col">
-              <label for="NoTelpon" class="form-label text-danger">Nomor Telp/HP</label>
+              <label for="NoTelpon" class="form-label text-orange">Nomor Telp/HP</label>
               <input type="text" class="form-control" id="NoTelpon" name="NoTelpon">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="email" class="form-label text-danger">Email</label>
+              <label for="email" class="form-label text-orange">Email</label>
               <input type="text" class="form-control" id="email" name="email">
             </div>
             <div class="col">
-              <label for="agama" class="form-label text-danger">Agama</label>
+              <label for="agama" class="form-label text-orange">Agama</label>
               <input type="text" class="form-control" id="agama" name="agama">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="status" class="form-label text-danger">Status</label>
+              <label for="status" class="form-label text-orange">Status</label>
               <input type="text" class="form-control" id="status" name="status">
             </div>
             <div class="col mt-auto">
-              <button class="btn btn-warning text-light w-100 fs-5 fw-bolder">Ubah Data</button>
+              <button class="btn btn-warning bg-orange text-light w-100 fs-5 fw-bolder">Ubah Data</button>
             </div>
           </div>
           
@@ -89,25 +89,25 @@
         </div>
       </div>
 
-      <h1 class="h1 text-danger fw-bold mt-5 mb-4">Biodata</h1>
+      <h1 class="h1 text-orange fw-bold mt-5 mb-4">Biodata</h1>
 
         <form action="" method="post">
           @csrf
           
           <div class="row">
             <div class="col">
-              <label for="nik" class="form-label text-danger">NIK</label>
+              <label for="nik" class="form-label text-orange">NIK</label>
               <input type="text" class="form-control" id="nik" name="nik">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="NamaLengkap" class="form-label text-danger">Nama Lengkap</label>
+              <label for="NamaLengkap" class="form-label text-orange">Nama Lengkap</label>
               <input type="text" class="form-control" id="NamaLengkap" name="NamaLengkap">
             </div>
             <div class="col">
-              <label for="JenisKelamin" class="form-label text-danger">Jenis Kelamin</label>
+              <label for="JenisKelamin" class="form-label text-orange">Jenis Kelamin</label>
               <select class="form-select" name="JenisKelamin" id="JenisKelamin">
                 <option value="LakiLaki">Laki - Laki</option>
                 <option value="perempuan">Perempuan</option>
@@ -117,18 +117,18 @@
 
           <div class="row mt-2">
             <div class="col">
-              <label for="TempatLahir" class="form-label text-danger">Tempat Lahir</label>
+              <label for="TempatLahir" class="form-label text-orange">Tempat Lahir</label>
               <input type="text" class="form-control" id="TempatLahir" name="TempatLahir">
             </div>
             <div class="col">
-              <label for="TanggalLahir" class="form-label text-danger">Tanggal Lahir</label>
+              <label for="TanggalLahir" class="form-label text-orange">Tanggal Lahir</label>
               <input type="text" class="form-control" id="TanggalLahir" name="TanggalLahir">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="agama" class="form-label text-danger">Agama</label>
+              <label for="agama" class="form-label text-orange">Agama</label>
               <select class="form-select" name="agama" id="agama">
                 <option value="islam">Islam</option>
                 <option value="kristen">Kristen</option>
@@ -137,61 +137,61 @@
               </select>
             </div>
             <div class="col">
-              <label for="npwp" class="form-label text-danger">NPWP</label>
+              <label for="npwp" class="form-label text-orange">NPWP</label>
               <input type="text" class="form-control" id="npwp" name="npwp">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="kewarganegraan" class="form-label text-danger">Kewarganegaraan</label>
+              <label for="kewarganegraan" class="form-label text-orange">Kewarganegaraan</label>
               <input type="text" class="form-control" id="kewarganegraan" name="kewarganegraan">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="AlamatJalan" class="form-label text-danger">Alamat Jalan</label>
+              <label for="AlamatJalan" class="form-label text-orange">Alamat Jalan</label>
               <input type="text" class="form-control" id="AlamatJalan" name="AlamatJalan">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col-6">
-              <label for="desa" class="form-label text-danger">Desa</label>
+              <label for="desa" class="form-label text-orange">Desa</label>
               <input type="text" class="form-control" id="desa" name="desa">
             </div>
             <div class="col">
-              <label for="rt" class="form-label text-danger">RT</label>
+              <label for="rt" class="form-label text-orange">RT</label>
               <input type="text" class="form-control" id="rt" name="rt">
             </div>
             <div class="col">
-              <label for="rw" class="form-label text-danger">RW</label>
+              <label for="rw" class="form-label text-orange">RW</label>
               <input type="text" class="form-control" id="rw" name="rw">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="kelurahan" class="form-label text-danger">Kelurahan</label>
+              <label for="kelurahan" class="form-label text-orange">Kelurahan</label>
               <input type="text" class="form-control" id="kelurahan" name="kelurahan">
             </div>
             <div class="col">
-              <label for="KodePos" class="form-label text-danger">Kode Pos</label>
+              <label for="KodePos" class="form-label text-orange">Kode Pos</label>
               <input type="text" class="form-control" id="KodePos" name="KodePos">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="kecamatan" class="form-label text-danger">Kecamatan</label>
+              <label for="kecamatan" class="form-label text-orange">Kecamatan</label>
               <input type="text" class="form-control" id="kecamatan" name="kecamatan">
             </div>
           </div>
 
           <div class="row mt-2">
             <div class="col">
-              <label for="JenisTinggal" class="form-label text-danger">Jenis Tinggal</label>
+              <label for="JenisTinggal" class="form-label text-orange">Jenis Tinggal</label>
               <select class="form-select" name="JenisTinggal" id="JenisTinggal">
                 <option value="islam">Rumah</option>
                 <option value="kristen">Sewa</option>
@@ -200,7 +200,7 @@
               </select>
             </div>
             <div class="col">
-              <label for="AlatTransportasi" class="form-label text-danger">Alat Transportasi</label>
+              <label for="AlatTransportasi" class="form-label text-orange">Alat Transportasi</label>
               <select class="form-select" name="AlatTransportasi" id="AlatTransportasi">
                 <option value="islam">Motor</option>
                 <option value="kristen">Mobil</option>
@@ -211,7 +211,7 @@
 
           <div class="row mt-2">
             <div class="col">
-              <label for="email" class="form-label text-danger">Email</label>
+              <label for="email" class="form-label text-orange">Email</label>
               <input type="email" class="form-control" id="email" name="email">
             </div>
           </div>
@@ -219,7 +219,7 @@
           {{-- Button Simpan --}}
           <div class="row mt-2">
             <div class="col-6 ms-auto mt-2">
-              <button class="btn btn-danger text-light w-100 fs-5 fw-bolder">Simpan Perubahan</button>
+              <button class="btn btn-danger bg-orange text-light w-100 fs-5 fw-bolder">Simpan Perubahan</button>
             </div>
           </div>
 
