@@ -1,10 +1,10 @@
 <div class="py-5" style="background-image: url('{{asset('media/LandingPage/bg-atas.png')}}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-  <div class="row justify-content-around">
-    <div class="col text-start ps-5">
+  <div class="row justify-content-between">
+    <div class="col ps-5">
       <img class="img-fluid mt-md-0 mt-2" src="{{asset('media/LandingPage/logo.png')}}">
     </div>
 
-    <div class="col-md-7 col-6 me-md-0 me-3 text-end">
+    <div class="col-auto me-md-0 me-3">
 
       <nav class="navbar navbar-dark navbar-expand-lg text-light">
         <div class="container-fluid">
@@ -42,11 +42,19 @@
                   <li><a class="dropdown-item" href="/administrasi/KeluarUntirta">Keluar Untirta</a></li>
                 </ul>
               </li>
-              <li class="nav-item rounded-3 px-2" style="{{Request::is('kinerja') ? 'background: rgba(255, 255, 255, 0.33);' : ''}}">
-                <a class="nav-link text-light" href="#"><i class="bi bi-briefcase-fill"></i> Kinerja</a>
+              <li class="nav-item dropdown rounded-3 px-2" style="{{Request::is('kemahasiswaan*') ? 'background: rgba(255, 255, 255, 0.33);' : ''}}">
+                <a class="nav-link text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-briefcase-fill"></i> Kemahasiswaan
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/kemahasiswaan">Beasiswa</a></li>
+                  <li><a class="dropdown-item" href="/kemahasiswaan/kkm">KKM</a></li>
+                  <li><a class="dropdown-item" href="/kemahasiswaan/prestasi">Prestasi</a></li>
+                  <li><a class="dropdown-item" href="/kemahasiswaan/simkatmawa">Simaktmawa</a></li>
+                </ul>
               </li>
               <li class="nav-item rounded-3 px-2" style="{{Request::is('keuangan') ? 'background: rgba(255, 255, 255, 0.33);' : ''}}">
-                <a class="nav-link text-light" href="#"><i class="bi bi-database-fill"></i> Keuangan</a>
+                <a class="nav-link text-light" href="/keuangan"><i class="bi bi-database-fill"></i> Keuangan</a>
               </li>
             </ul>
             <hr class="bg-light">

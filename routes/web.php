@@ -5,6 +5,8 @@ use App\Http\Controllers\UserRegistrationController;
 use App\Http\Controllers\AkademikController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\AdministrasiController;
+use App\Http\Controllers\KemahasiswaanController;
+use App\Http\Controllers\KeuanganController;
 use App\Http\Controllers\Controller;
 
 /*
@@ -47,3 +49,20 @@ Route::get('/administrasi/PindahProdi', [AdministrasiController::class, 'PindahP
 Route::get('/administrasi/KeluarUntirta', [AdministrasiController::class, 'KeluarUntirta']);
 Route::get('/administrasi/perpustakaan', [AdministrasiController::class, 'perpustakaan']);
 Route::get('/administrasi/perpustakaan/riwayat', [AdministrasiController::class, 'RiwayatPeminjaman']);
+
+// Route kemahasiswaan
+Route::get('/kemahasiswaan', [KemahasiswaanController::class, 'beasiswa']);
+Route::get('/kemahasiswaan/kkm', [KemahasiswaanController::class, 'kkm']);
+Route::get('/kemahasiswaan/kkm/dokumen', [KemahasiswaanController::class, 'dokumen']);
+Route::get('/kemahasiswaan/kkm/kelompok', [KemahasiswaanController::class, 'kelompok']);
+Route::get('/kemahasiswaan/prestasi', [KemahasiswaanController::class, 'prestasi']);
+Route::get('/kemahasiswaan/simkatmawa', [KemahasiswaanController::class, 'simkatmawa']);
+
+// Route keuangan
+Route::get('/keuangan', [KeuanganController::class, 'ukt']);
+Route::get('/keuangan/cuti', [KeuanganController::class, 'cuti']);
+Route::get('/keuangan/penangguhan', [KeuanganController::class, 'penangguhan']);
+Route::get('/keuangan/penurunan', [KeuanganController::class, 'penurunan']);
+
+// Route SKPI
+Route::get('/skpi', [KeuanganController::class, 'skpi']);
