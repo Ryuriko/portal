@@ -1,7 +1,7 @@
 @extends('layouts.keuangan')
 
 @section('content')
-<div class="row text-center px-md-5 my-5">        
+<div class="row text-center px-md-5 px-5 my-5">        
     <div class="col-1 bg-danger pt-3">
     </div>
     <div class="col text-start bg-dark text-light pt-3" style="background: #FFD6B0;">

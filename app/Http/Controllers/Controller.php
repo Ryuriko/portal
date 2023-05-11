@@ -10,6 +10,10 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
 
+    public function pendidikan()
+    {
+        return view('layouts.pendidikan');
+    }
     public function skpi()
     {
         return view('skpi.skpi');

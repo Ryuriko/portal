@@ -7,11 +7,11 @@
         <label for="alasan" class="form-label">Alasan pengajuan permohonan penangguhan</label>
         <textarea class="form-control bg-silver py-5" id="alasan" rows="3" name="alasan"></textarea>
     </div>
-    <div class="col-6 mt-3">
+    <div class="col col-md-6 mt-3">
       <label for="tanggal" class="form-label">Tanggal pembayaran</label>
-      <input type="text" class="form-control bg-silver" id="tanggal" name="tanggal">
+      <input type="date" class="form-control bg-silver" id="tanggal" name="tanggal">
     </div>
-    <div class="col-6 mt-3">
+    <div class="col col-md-6 mt-3">
       <label for="jumlah" class="form-label">Jumlah</label>
       <input type="text" class="form-control bg-silver" id="jumlah" name="jumlah">
     </div>

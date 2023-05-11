@@ -18,9 +18,43 @@
         <label for="alasan" class="form-label">Alasan permohonan penurunan</label>
         <textarea class="form-control bg-silver pb-5" id="alasan" rows="3" name="alasan" placeholder="Beritahu alasan anda disini"></textarea>
     </div>
-    <div class="col my-4 text-end">
+    <div class="col-6 mt-3">
+      <label for="rumah" class="form-label text-orange fs-4 fw-bold">Upload kondisi rumah</label>
+      <input type="file" class="dropify" data-max-file-size-preview="3M">
+    </div>
+    <div class="col-6 mt-3">
+      <label for="gaji" class="form-label text-orange fs-4 fw-bold">Upload slip gaji</label>
+      <input type="file" class="dropify" data-max-file-size-preview="3M">
+    </div>
+    <div class="col-6 mt-3">
+      <label for="sktm" class="form-label text-orange fs-4 fw-bold">Upload surat keterangan tidak mampu</label>
+      <input type="file" class="dropify" data-max-file-size-preview="3M">
+    </div>
+    <div class="col-6 mt-3">
+      <label for="kk" class="form-label text-orange fs-4 fw-bold">Upload photo copy kartu keluarga</label>
+      <input type="file" class="dropify" data-max-file-size-preview="3M">
+    </div>
+    <div class="col-6 mt-3">
+      <label for="struk" class="form-label text-orange fs-4 fw-bold">Upload rekening listrik, air dan PBB</label>
+      <input type="file" class="dropify" data-max-file-size-preview="3M">
+    </div>
+    <div class="col-6 mt-3">
+      <label for="lainlain" class="form-label text-orange fs-4 fw-bold">Upload dokumen lain yang mendukung penurunan</label>
+      <input type="file" class="dropify" data-max-file-size-preview="3M">
+    </div>
+    <div class="col-6 mt-3">
+      <label for="sktm" class="form-label text-orange fs-4 fw-bold">Upload surat keterangan tidak mampu</label>
+      <input type="file" class="dropify" data-max-file-size-preview="3M">
+    </div>
+    <div class="col-6 mt-3">
+      <label for="kk" class="form-label text-orange fs-4 fw-bold">Upload photo copy kartu keluarga</label>
+      <input type="file" class="dropify" data-max-file-size-preview="3M">
+    </div>
+
+    <div class="col-12 my-4 text-end">
       <button class="btn btn-warning bg-orange px-md-5 px-3 text-light fw-bold">Ajukan permohonan</button>
     </div>
+
 </div>
 
 @endsection

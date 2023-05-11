@@ -1,61 +1,56 @@
 @extends('layouts.profile')
 
 @section('content')
+
 <div class="row justify-content-center sec-1" id="biodata">
     <div class="col rounded-5 py-md-5 py-4 px-5">
+
+      <div class="row text-center px-4 my-3">
+        <div class="col text-start text-danger px-5 pt-3" style="background: #FFD6B0;">
+          <p>
+            File yang di unggah tidak boleh melebihi ukuran 2 Mb
+          </p>
+        </div>
+      </div>
+
         <form action="" method="post">
           @csrf
 
-          <div class="row">
-            <div class="col-md-2 col-4">
-              <label class="form-label text-danger" for="nim">NIM</label>
-              <input type="file" class="dropify" data-default-file="url_of_your_file" />
-            </div>
-            <div class="col">
-              <label for="nama" class="form-label text-danger">Nama</label>
-              <input type="text" class="form-control" id="nama" name="nama">
-            </div>
+        <div class="row">
+          <div class="col-6">
+            <label for="foto" class="form-label text-orange fs-4 fw-bold">Upload pas foto</label>
+            <input type="file" class="dropify">
           </div>
 
-          <div class="row mt-2">
-            <div class="col">
-              <label for="fakultas" class="form-label text-danger">Fakultas</label>
-              <input type="text" class="form-control" id="fakultas" name="fakultas">
-            </div>
-            <div class="col">
-              <label for="prodi" class="form-label text-danger">Program Studi</label>
-              <input type="text" class="form-control" id="prodi" name="prodi">
-            </div>
+          <div class="col-6">
+            <label for="akta" class="form-label text-orange fs-4 fw-bold">Upload akta kelahiran</label>
+            <input type="file" class="dropify" id="akta" name="akta">
           </div>
 
-          <div class="row mt-2">
-            <div class="col">
-              <label for="StatusPerkuliahan" class="form-label text-danger">Status Perkuliahan</label>
-              <input type="text" class="form-control" id="StatusPerkuliahan" name="StatusPerkuliahan">
-            </div>
-            <div class="col">
-              <label for="TTL" class="form-label text-danger">Tempat, Tanggal Lahir</label>
-              <input type="text" class="form-control" id="TTL" name="TTL">
-            </div>
+          <div class="col-6">
+            <label for="kk" class="form-label text-orange fs-4 fw-bold mt-4">Upload kartu keluarga</label>
+            <input type="file" class="dropify" id="kk" name="kk">
           </div>
 
-          <div class="row mt-2">
-            <div class="col">
-              <label for="JenisKelamin" class="form-label text-danger">Jenis Kelamin</label>
-              <input type="text" class="form-control" id="JenisKelamin" name="JenisKelamin">
-            </div>
-            <div class="col">
-              <label for="NoTelpon" class="form-label text-danger">Nomor Telp/HP</label>
-              <input type="text" class="form-control" id="NoTelpon" name="NoTelpon">
-            </div>
+          <div class="col-6">
+            <label for="ktp" class="form-label text-orange fs-4 fw-bold mt-4">Upload KTP</label>
+            <input type="file" class="dropify" id="ktp" name="ktp">
           </div>
 
-          <div class="row mt-2">
-            <div class="col-6 ms-auto mt-auto">
-              <button class="btn bg-orange text-light w-100 fs-5 fw-bolder">Simpan Perubahan</button>
-            </div>
+          <div class="col-6">
+            <label for="ijazah" class="form-label text-orange fs-4 fw-bold mt-4">Upload ijazah terakhir</label>
+            <input type="file" class="dropify" id="ijazah" name="ijazah">
           </div>
           
+          <div class="col-6">
+            <label for="nilai" class="form-label text-orange fs-4 fw-bold mt-4">Upload transkrip nilai</label>
+            <input type="file" class="dropify fs-6" id="nilai" name="nilai">
+          </div>
+
+          <div class="col-6 ms-auto my-5">
+            <button class="btn bg-orange text-light w-100 fs-5 fw-bolder">Simpan Perubahan</button>
+          </div>
+        </div>
         </form>
     </div>
 </div>
