@@ -1,7 +1,7 @@
 @extends('layouts.administrasi')
 
 @section('content')
-<div class="row text-center px-md-5 px-5 my-5">
+<div class="row m-0 text-center px-md-5 px-5 my-5">
     <div class="col-md-4 col-6 text-start bg-orange text-light ps-md-5 pt-2">
         <p class="h4 text">Pengajuan Cuti</p>
     </div>
@@ -9,7 +9,7 @@
     </div>
 </div>
 
-<div class="row px-5">
+<div class="row m-0 px-5">
     <div class="col-8">
       <label for="SemesterCuti" class="form-label">Semester Cuti</label>
       <input type="text" class="form-control" id="SemesterCuti" name="SemesterCuti" placeholder="-" disabled>
@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<div class="row justify-content-center mt-4">
+<div class="row m-0 justify-content-center mt-4">
     <div class="col-11 shadow-lg rounded-5 py-4 px-5">
         <p>Proses Verifikasi Cuti</p>
 
@@ -77,7 +77,7 @@
         </div>
 </div>
 
-<div class="row justify-content-center mt-4 mb-5">
+<div class="row m-0 justify-content-center mt-4 mb-5">
     <div class="col-11 shadow-lg rounded-5 py-4 px-5">
         <p>Cuti yang sedang berlangsung</p>
 
@@ -107,7 +107,7 @@
             </tbody>
           </table>
         </div>
-        <div class="row my-md-0 my-4">
+        <div class="row m-0 my-md-0 my-4">
             <div class="text-end">
                 <a href="#" class="btn btn-success fw-bold px-md-4">Aktifkan Kembali</a>
                 <a href="#" class="btn btn-secondary fw-bold px-md-4">Unduh Kembali</a>

@@ -1,7 +1,7 @@
 @extends('layouts.akademik')
 
 @section('content')
-<div class="row text-center px-md-5 px-5 my-5">
+<div class="row m-0 text-center px-md-5 px-5 my-5">
     <div class="col-md-4 col-6 text-start bg-orange text-light ps-md-5 pt-2">
         <p class="h4 text">Transkrip Nilai</p>
     </div>
@@ -32,7 +32,7 @@
       </table>
 </div>
 
-<div class="row justify-content-center mt-3 mb-5">
+<div class="row m-0 justify-content-center mt-3 mb-5">
     <div class="col-11 shadow-lg rounded-5 py-4 px-5">
         <p>Nilai semester ganjil</p>
 
@@ -64,7 +64,7 @@
         </div>
     </div>
 </div>
-<div class="row justify-content-center mt-3 mb-5">
+<div class="row m-0 justify-content-center mt-3 mb-5">
     <div class="col-11 shadow-lg rounded-5 py-4 px-5">
         <p>Nilai semester genap</p>
 

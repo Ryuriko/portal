@@ -1,7 +1,7 @@
 @extends('layouts.skpi')
 
 @section('content')
-<div class="row text-center px-md-5 px-5 my-5">
+<div class="row m-0 text-center px-md-5 px-5 my-5">
     <div class="col-md-4 col-6 text-start bg-orange text-light ps-md-5 pt-2">
         <p class="h4 text">SKPI</p>
     </div>
@@ -13,7 +13,7 @@
     <p class="fw-bold">Tambah Aktifitas Mahasiswa</p>
 </div>
 
-<div class="row px-5 py-3 mb-5">
+<div class="row m-0 px-5 py-3 mb-5">
     <div class="col-6">
       <label for="nim" class="form-label">NIM</label>
       <input type="text" class="form-control bg-silver" id="nim" name="nim">

@@ -2,10 +2,10 @@
 
 @section('content')
 
-<div class="row justify-content-center sec-1" id="biodata">
+<div class="row m-0 justify-content-center sec-1" id="biodata">
     <div class="col rounded-5 py-md-5 py-4 px-5">
 
-      <div class="row text-center px-4 my-3">
+      <div class="row m-0 text-center px-4 my-3">
         <div class="col text-start text-danger px-5 pt-3" style="background: #FFD6B0;">
           <p>
             File yang di unggah tidak boleh melebihi ukuran 2 Mb
@@ -16,7 +16,7 @@
         <form action="" method="post">
           @csrf
 
-        <div class="row">
+        <div class="row m-0">
           <div class="col-6">
             <label for="foto" class="form-label text-orange fs-4 fw-bold">Upload pas foto</label>
             <input type="file" class="dropify">

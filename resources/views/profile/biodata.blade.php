@@ -1,7 +1,7 @@
 @extends('layouts.profile')
 
 @section('content')
-<div class="row justify-content-center sec-1" id="biodata">
+<div class="row m-0 justify-content-center sec-1" id="biodata">
     <div class="col rounded-5 py-md-5 py-4 px-5">
         <form action="" method="post">
           @csrf
@@ -17,7 +17,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="fakultas" class="form-label text-orange">Fakultas</label>
               <input type="text" class="form-control" id="fakultas" name="fakultas">
@@ -28,7 +28,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="StatusPerkuliahan" class="form-label text-orange">Status Perkuliahan</label>
               <input type="text" class="form-control" id="StatusPerkuliahan" name="StatusPerkuliahan">
@@ -39,7 +39,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="JenisKelamin" class="form-label text-orange">Jenis Kelamin</label>
               <input type="text" class="form-control" id="JenisKelamin" name="JenisKelamin">
@@ -50,7 +50,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="email" class="form-label text-orange">Email</label>
               <input type="text" class="form-control" id="email" name="email">
@@ -61,7 +61,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="status" class="form-label text-orange">Status</label>
               <input type="text" class="form-control" id="status" name="status">
@@ -75,11 +75,11 @@
     </div>
 </div>
 
-<div class="row justify-content-center sec-1 border-top border-5 border-danger">
+<div class="row m-0 justify-content-center sec-1 border-top border-5 border-danger">
     <div class="col rounded-5 py-4 px-5">
 
       {{-- Pengumuman --}}
-      <div class="row text-center px-4 my-3">
+      <div class="row m-0 text-center px-4 my-3">
         <div class="col-1 ms-md-3" style="background: #AF39A1;">
         </div>
         <div class="col text-start text-light pt-3" style="background: #E88814;">
@@ -101,7 +101,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="NamaLengkap" class="form-label text-orange">Nama Lengkap</label>
               <input type="text" class="form-control" id="NamaLengkap" name="NamaLengkap">
@@ -115,7 +115,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="TempatLahir" class="form-label text-orange">Tempat Lahir</label>
               <input type="text" class="form-control" id="TempatLahir" name="TempatLahir">
@@ -126,7 +126,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="agama" class="form-label text-orange">Agama</label>
               <select class="form-select" name="agama" id="agama">
@@ -142,21 +142,21 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="kewarganegraan" class="form-label text-orange">Kewarganegaraan</label>
               <input type="text" class="form-control" id="kewarganegraan" name="kewarganegraan">
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="AlamatJalan" class="form-label text-orange">Alamat Jalan</label>
               <input type="text" class="form-control" id="AlamatJalan" name="AlamatJalan">
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col-6">
               <label for="desa" class="form-label text-orange">Desa</label>
               <input type="text" class="form-control" id="desa" name="desa">
@@ -171,7 +171,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="kelurahan" class="form-label text-orange">Kelurahan</label>
               <input type="text" class="form-control" id="kelurahan" name="kelurahan">
@@ -182,14 +182,14 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="kecamatan" class="form-label text-orange">Kecamatan</label>
               <input type="text" class="form-control" id="kecamatan" name="kecamatan">
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="JenisTinggal" class="form-label text-orange">Jenis Tinggal</label>
               <select class="form-select" name="JenisTinggal" id="JenisTinggal">
@@ -209,7 +209,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="email" class="form-label text-orange">Email</label>
               <input type="email" class="form-control" id="email" name="email">
@@ -217,7 +217,7 @@
           </div>
           
           {{-- Button Simpan --}}
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col-6 ms-auto mt-2">
               <button class="btn btn-danger bg-orange text-light w-100 fs-5 fw-bolder">Simpan Perubahan</button>
             </div>

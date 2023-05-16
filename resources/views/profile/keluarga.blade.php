@@ -1,12 +1,12 @@
 @extends('layouts.profile')
 
 @section('content')
-<div class="row justify-content-center sec-1">
+<div class="row m-0 justify-content-center sec-1">
     <div class="col rounded-5 py-md-5 py-4 px-5">
       <p class="h3 text-danger fw-bold mt-md-5 mb-4">Informasi Ayah</p>
 
       {{-- Pengumuman --}}
-      <div class="row text-center px-4 my-3">
+      <div class="row m-0 text-center px-4 my-3">
         <div class="col-1 ms-md-3" style="background: #AF39A1;">
         </div>
         <div class="col text-start text-light pt-3" style="background: #E88814;">
@@ -19,7 +19,7 @@
         <form action="" method="post">
           @csrf
 
-          <div class="row">
+          <div class="row m-0">
             <div class="col">
               <label for="nik" class="form-label text-danger">NIK</label>
               <input type="text" class="form-control" id="nik" name="nik">
@@ -30,7 +30,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="TempatLahir" class="form-label text-danger">Tempat Lahir</label>
               <input type="text" class="form-control" id="TempatLahir" name="TempatLahir">
@@ -41,7 +41,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="pendidikan" class="form-label text-danger">Pendidikan</label>
               <input type="text" class="form-control" id="pendidikan" name="pendidikan">
@@ -52,7 +52,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
                 <label for="penghasilan" class="form-label text-danger">Penghasilan</label>
                 <select class="form-select" name="penghasilan" id="penghasilan">
@@ -66,11 +66,11 @@
 
 <hr>
 
-<div class="row justify-content-center">
+<div class="row m-0 justify-content-center">
     <div class="col rounded-5 py-md-3 py-2 px-5">
       <p class="h3 text-danger fw-bold">Informasi Ibu</p>
 
-          <div class="row">
+          <div class="row m-0">
             <div class="col">
               <label for="nik" class="form-label text-danger">NIK</label>
               <input type="text" class="form-control" id="nik" name="nik">
@@ -81,7 +81,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="TempatLahir" class="form-label text-danger">Tempat Lahir</label>
               <input type="text" class="form-control" id="TempatLahir" name="TempatLahir">
@@ -92,7 +92,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
               <label for="pendidikan" class="form-label text-danger">Pendidikan</label>
               <input type="text" class="form-control" id="pendidikan" name="pendidikan">
@@ -103,7 +103,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col">
                 <label for="penghasilan" class="form-label text-danger">Penghasilan</label>
                 <select class="form-select" name="penghasilan" id="penghasilan">
@@ -113,7 +113,7 @@
             </div>
           </div>
 
-          <div class="row mt-2">
+          <div class="row m-0 mt-2">
             <div class="col-6 ms-auto mt-2">
               <button class="btn bg-orange text-light w-100 fs-5 fw-bolder">Simpan Perubahan</button>
             </div>

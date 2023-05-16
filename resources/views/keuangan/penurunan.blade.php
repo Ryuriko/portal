@@ -2,14 +2,14 @@
 
 @section('content')
 
-<div class="row px-5 mt-5 mb-3">
+<div class="row m-0 px-5 mt-5 mb-3">
     <div class="col">
         <p>Total UKT saat ini</p>
         <p>Rp. 4.000.000</p>
     </div>
 </div>
 
-<div class="row px-5 mb-5">
+<div class="row m-0 px-5 mb-5">
     <div class="col-6">
         <label for="tanggal" class="form-label">Permohonan penurunan</label>
         <input type="text" class="form-control bg-silver" id="tanggal" name="tanggal" placeholder="Rp. 0">

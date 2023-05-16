@@ -1,7 +1,7 @@
 @extends('layouts.administrasi')
 
 @section('content')
-<div class="row justify-content-center px-md-5 px-5 my-5">
+<div class="row m-0 justify-content-center px-md-5 px-5 my-5">
     <div class="col-md-4 col-6 text-start bg-orange text-light ps-md-5 pt-2">
         <p class="h4 text">Wisuda</p>
     </div>
@@ -9,7 +9,7 @@
     </div>
 </div>
 
-<div class="row px-5">
+<div class="row m-0 px-5">
     <div class="col-3">
       <label for="NilaiIPK" class="form-label">Nilai IPK</label>
       <input type="text" class="form-control bg-silver" id="NilaiIPK" name="NilaiIPK">
@@ -45,7 +45,7 @@
 </div>
 
 <p class="text-start mx-md-5 mx-3 my-3">Proses verifikasi wisuda</p>
-<div class="row justify-content-center">
+<div class="row m-0 justify-content-center">
     <div class="col-md-11 col-10 text-center shadow-lg rounded-5 p-5 mb-5">
         <i class="bi bi-file-earmark-excel fs-1 fw-bold"></i>
         <p class="mt-2">Saat ini anda belum mempunyai data untuk diverifikasi</p>

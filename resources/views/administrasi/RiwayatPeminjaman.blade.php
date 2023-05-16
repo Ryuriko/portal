@@ -14,7 +14,7 @@
     <a href="/administrasi/perpustakaan/riwayat" class="col-md-2 col-5 p-md-3 p-2 nav-link fw-bold rounded-top-4 text-center mt-2 mt-md-0 {{Request::is('administrasi/perpustakaan/riwayat') ? 'bg-orange text-light' : 'bg-silver text-danger'}}">Riwayat Peminjaman</a>
 </div>
 
-<div class="row justify-content-center my-5">
+<div class="row m-0 justify-content-center my-5">
     <div class="col-11 shadow-lg rounded-5 py-4 px-5">
         <p>Buku sedang dalam permohonan pinjam</p>
 
@@ -47,7 +47,7 @@
     </div>
 </div>
 
-<div class="row justify-content-center mt-3 mb-5">
+<div class="row m-0 justify-content-center mt-3 mb-5">
     <div class="col-11 shadow-lg rounded-5 py-4 px-5">
         <p>Buku dalam masa peminjaman</p>
 

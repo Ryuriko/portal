@@ -1,11 +1,11 @@
 @extends('layouts.akademik')
 
 @section('content')
-<div class="row justify-content-center sec-1" id="biodata">
+<div class="row m-0 justify-content-center sec-1" id="biodata">
     <div class="col rounded-5 py-md-3 py-2 px-5">
 
         {{-- Pengumuman --}}
-        <div class="row text-center my-3">
+        <div class="row m-0 text-center my-3">
             <div class="col-md-4 col-6 text-start bg-orange text-light ps-md-5 pt-2">
                 <p class="h4">Perkuliahan</p>
             </div>
@@ -14,7 +14,7 @@
         </div>
 
         <p class="ms-md-5 ms-3 mt-5 fs-5">Jadwal Perkuliahan</p>
-        <div class="row justify-content-center">
+        <div class="row m-0 justify-content-center">
             <div class="col-11 shadow-lg rounded-5 py-5 px-5">
 
                 <div class="table-responsive">
@@ -51,19 +51,19 @@
         
         <p class="ms-md-5 ms-3 mt-5 fs-5">Statistik aktifitas perkuliahan</p>
         
-        <div class="row px-md-5 px-3">
+        <div class="row m-0 px-md-5 px-3">
             <div class="col-3 ms-md-4"><i class="bi bi-circle-fill text-success"></i> Hadir</div>
             <div class="col-3"><i class="bi bi-circle-fill text-warning"></i> Izin</div>
             <div class="col"><i class="bi bi-circle-fill text-danger"></i> Tidak Hadir</div>
         </div>
 
-        <div class="row justify-content-center px-md-5 my-5">
+        <div class="row m-0 justify-content-center px-md-5 my-5">
             <div class="col text-center">
                 <img class="img-fluid w-75" src="{{asset('media/akademik/statistik.png')}}">
             </div>
         </div>
 
-        <div class="row justify-content-center mb-5 px-3">
+        <div class="row m-0 justify-content-center mb-5 px-3">
             <div class="col-md-7 mb-5">
                 <table class="table table-borderless">
                     <thead>

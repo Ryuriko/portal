@@ -1,7 +1,7 @@
 @extends('layouts.administrasi')
 
 @section('content')
-<div class="row justify-content-center px-md-5 px-5 my-5">
+<div class="row m-0 justify-content-center px-md-5 px-5 my-5">
     <div class="col-md-4 col-6 text-start bg-orange text-light ps-md-5 pt-2">
         <p class="h4 text">Perpustakaan</p>
     </div>
@@ -10,12 +10,12 @@
 </div>
 
 {{-- navbar --}}
-<div class="row mt-3 border-bottom border-warning border-5 px-md-5 px-3">
+<div class="row m-0 mt-3 border-bottom border-warning border-5 px-md-5 px-3">
     <a href="/administrasi/perpustakaan" class="col-md-2 col-6 p-md-3 p-2 nav-link fw-bold rounded-top-4 text-center me-1 mt-2 mt-md-0 {{Request::is('administrasi/perpustakaan') ? 'bg-orange text-light' : 'bg-silver text-danger'}}">Peminjaman</a>
     <a href="/administrasi/perpustakaan/riwayat" class="col-md-2 col-5 p-md-3 p-2 nav-link fw-bold rounded-top-4 text-center mt-2 mt-md-0 {{Request::is('administrasi/perpustakaan/riwayat') ? 'bg-orange text-light' : 'bg-silver text-danger'}}">Riwayat Peminjaman</a>
 </div>
 
-<div class="row justify-content-between px-5 my-5">
+<div class="row m-0 justify-content-between px-5 my-5">
     <div class="col col-md-5 rounded-5 bg-orange ms-md-5 me-md-0 me-3">
         <img class="img-fluid d-block my-4" src="{{asset('media/administrasi/profile.png')}}">
         <div class="row justify-content-between py-4 px-3">
@@ -32,7 +32,7 @@
     </div>
 </div>
 
-<div class="row px-5 mb-5">
+<div class="row m-0 px-5 mb-5">
     <div class="col-12">
       <label for="judul" class="form-label">Judul Buku Pinjam</label>
       <input type="text" class="form-control bg-silver" id="judul" name="judul">

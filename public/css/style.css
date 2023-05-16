@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.login {
+    height: 100vh;
+    background: linear-gradient(0.4deg, #8D0BF2 -19.21%, #EE9005 103.87%);
+    box-shadow: 0px 9.33005px 10.1782px rgba(0, 0, 0, 0.19);
+    z-index: -100;
+}  
+.pp {
+    background-image: url('https://cdn.pixabay.com/photo/2023/04/12/11/32/sparrow-7920064_960_720.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.footer {
+    background: #E38021;
+  }
+@media only screen and (max-width: 768px)
+  {
+    .sec-1{
+      margin-top: -24%;
+    }
+    .footer {
+      margin-top: 0%;
+      height: 20vh;
+    }
+  }
+@media only screen and (min-width: 768.5px)
+  {
+    .sec-1 {
+      margin-top: -10%;
+    }
+    .footer {
+      margin-top: 0%;
+      height: 35vh;
+    }
+  }
+.text-orange {
+    color: #E98912;
+}
+.text-purple {
+    color: #C95DBE;
+}
+.bg-orange {
+    background: #E98912;
+}
+.bg-silver {
+    background: #DBDBDB;
+}
+.bg-purple {
+    background: #C95DBE;
+}
+.back-card {
+    margin-left: 0;
+    margin-right: 0;
+    background: #FEFEFE;
+    opacity: 0.48;
+    height: 100%;
+}

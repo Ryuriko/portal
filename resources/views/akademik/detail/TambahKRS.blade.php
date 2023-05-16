@@ -1,10 +1,10 @@
 @extends('layouts.akademik')
 
 @section('content')
-<div class="row justify-content-center">
+<div class="row m-0 justify-content-center">
     <div class="col rounded-5 py-md-3 py-2 px-5">
 
-        <div class="row text-center px-md-5 my-5">
+        <div class="row m-0 text-center px-md-5 my-5">
             <div class="col-md-4 col-6 text-start bg-orange text-light ps-md-5 pt-2">
                 <p class="h4 text">Buat Kartu Rencana Studi</p>
             </div>
@@ -12,7 +12,7 @@
             </div>
         </div>
   
-        <div class="row justify-content-center px-md-5">
+        <div class="row m-0 justify-content-center px-md-5">
             <div class="col-6">
               <label for="TahunAkademik" class="form-label">Tahun Akademik</label>
               <input type="text" class="form-control" id="TahunAkademik" name="TahunAkademik" placeholder="2023" disabled>
@@ -31,7 +31,7 @@
             </div>
         </div>
 
-        <div class="row justify-content-around px-md-5 my-5">
+        <div class="row m-0 justify-content-around px-md-5 my-5">
           <div class="col col-md-5 text-center shadow px-5 pb-5 rounded-5">
             <p class="text-start my-4">Mata kuliah dan kelas yang anda pilih</p>
             <table class="table ">
