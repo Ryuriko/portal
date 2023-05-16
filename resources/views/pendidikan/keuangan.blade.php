@@ -1,4 +1,4 @@
-<hr class="p-2">
+<div class="col-11 bg-light py-5 px-5 my-2">
 
         <div class="fs-3 mt-md-3 fw-bold text-danger fs-5">Keuangan</div>
         <div class="fs-5">Pengumuman</div>
@@ -44,9 +44,10 @@
           @endphp
 
           @foreach ($akademik as $item)                  
-          <div class="col-md-4 col-sm-3 col-3 col-lg-2 px-md-5 px-sm-1 px-0 px-lg-2 me-sm-0 me-1 text-center">
-            <a href="#"> <div  class="p-3 border rounded-5"><i class="bi bi-browser-chrome fs-1"></i></div></a>
+          <div class="col-md-3 col-sm-4 col-6 col-lg-2 px-2 text-center">
+            <a href="#"> <div class="m-3 border rounded-5 py-3"><i class="bi bi-browser-chrome fs-1"></i></div></a>
             <p class="">{{ $item["nama"] }}</p>
           </div>
           @endforeach
       </div>
+</div>

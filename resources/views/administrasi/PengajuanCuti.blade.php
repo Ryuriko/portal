@@ -12,15 +12,15 @@
 <div class="row m-0 px-5">
     <div class="col-8">
       <label for="SemesterCuti" class="form-label">Semester Cuti</label>
-      <input type="text" class="form-control" id="SemesterCuti" name="SemesterCuti" placeholder="-" disabled>
+      <input type="text" class="form-control bg-silver" id="SemesterCuti" name="SemesterCuti" placeholder="-">
     </div>
     <div class="col-8 my-4">
       <label for="TahunAkademik" class="form-label">Tahun Akademik</label>
-      <input type="text" class="form-control" id="TahunAkademik" name="TahunAkademik" placeholder="-" disabled>
+      <input type="text" class="form-control bg-silver" id="TahunAkademik" name="TahunAkademik" placeholder="-">
     </div>
     <div class="col-8">
       <label for="AlasanCuti" class="form-label">Alasan Cuti</label>
-      <input type="text" class="form-control" id="AlasanCuti" name="AlasanCuti" placeholder="-" disabled>
+      <input type="text" class="form-control bg-silver" id="AlasanCuti" name="AlasanCuti" placeholder="-">
     </div>
     <div class="col-5 my-4">
       <button class="btn btn-warning bg-orange px-md-5 px-3 text-light fw-bold">Simpan</button>

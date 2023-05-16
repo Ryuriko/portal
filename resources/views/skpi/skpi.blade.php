@@ -13,7 +13,7 @@
     <p class="fw-bold">Tambah Aktifitas Mahasiswa</p>
 </div>
 
-<div class="row m-0 px-5 py-3 mb-5">
+<div class="row m-0 px-5 py-3">
     <div class="col-6">
       <label for="nim" class="form-label">NIM</label>
       <input type="text" class="form-control bg-silver" id="nim" name="nim">

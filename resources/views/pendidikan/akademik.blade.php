@@ -1,4 +1,6 @@
-        <div class="row m-0 justify-content-arround">
+<div class="col-11 bg-light rounded-top-5 sec-1 py-5 px-5 mb-1">
+
+          <div class="row m-0 justify-content-arround">
             <div class="col text-start">
               <div class="row m-0 text-start">
                 <div class="col-4 col-sm-2 col-md-2 col-lg-2 col-xl-1 rounded-circle">
@@ -75,10 +77,12 @@
           @endphp
 
           @foreach ($akademik as $item)                  
-          <div class="col-md-4 col-sm-3 col-3 col-lg-2 px-md-5 px-sm-1 px-0 px-lg-2 me-sm-0 me-1 text-center">
-            <a href="#"> <div  class="p-3 border rounded-5"><i class="bi bi-spotify fs-1"></i></div></a>
+          <div class="col-md-3 col-sm-4 col-6 col-lg-2 px-2 text-center">
+            <a href="#"> <div class="m-3 border rounded-5 py-3"><i class="bi bi-browser-chrome fs-1"></i></div></a>
             <p class="">{{ $item["nama"] }}</p>
           </div>
           @endforeach
 
       </div>
+
+</div>

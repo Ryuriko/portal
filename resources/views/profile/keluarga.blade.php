@@ -22,40 +22,40 @@
           <div class="row m-0">
             <div class="col">
               <label for="nik" class="form-label text-danger">NIK</label>
-              <input type="text" class="form-control" id="nik" name="nik">
+              <input type="text" class="form-control bg-silver" id="nik" name="nik">
             </div>
             <div class="col">
               <label for="NamaLengkap" class="form-label text-danger">Nama Lengkap</label>
-              <input type="text" class="form-control" id="NamaLengkap" name="NamaLengkap">
+              <input type="text" class="form-control bg-silver" id="NamaLengkap" name="NamaLengkap">
             </div>
           </div>
 
           <div class="row m-0 mt-2">
             <div class="col">
               <label for="TempatLahir" class="form-label text-danger">Tempat Lahir</label>
-              <input type="text" class="form-control" id="TempatLahir" name="TempatLahir">
+              <input type="text" class="form-control bg-silver" id="TempatLahir" name="TempatLahir">
             </div>
             <div class="col">
               <label for="TanggalLahir" class="form-label text-danger">Tanggal Lahir</label>
-              <input type="text" class="form-control" id="TanggalLahir" name="TanggalLahir">
+              <input type="text" class="form-control bg-silver" id="TanggalLahir" name="TanggalLahir">
             </div>
           </div>
 
           <div class="row m-0 mt-2">
             <div class="col">
               <label for="pendidikan" class="form-label text-danger">Pendidikan</label>
-              <input type="text" class="form-control" id="pendidikan" name="pendidikan">
+              <input type="text" class="form-control bg-silver" id="pendidikan" name="pendidikan">
             </div>
             <div class="col">
               <label for="pekerjaan" class="form-label text-danger">Pekerjaan</label>
-              <input type="text" class="form-control" id="pekerjaan" name="pekerjaan">
+              <input type="text" class="form-control bg-silver" id="pekerjaan" name="pekerjaan">
             </div>
           </div>
 
           <div class="row m-0 mt-2">
             <div class="col">
                 <label for="penghasilan" class="form-label text-danger">Penghasilan</label>
-                <select class="form-select" name="penghasilan" id="penghasilan">
+                <select class="form-select bg-silver" name="penghasilan" id="penghasilan">
                   <option value="<500k"><span> < Rp. 500.000 </span></option>
                   <option value=">500k">> Rp. 500.000</option>
                 </select>
@@ -73,40 +73,40 @@
           <div class="row m-0">
             <div class="col">
               <label for="nik" class="form-label text-danger">NIK</label>
-              <input type="text" class="form-control" id="nik" name="nik">
+              <input type="text" class="form-control bg-silver" id="nik" name="nik">
             </div>
             <div class="col">
               <label for="NamaLengkap" class="form-label text-danger">Nama Lengkap</label>
-              <input type="text" class="form-control" id="NamaLengkap" name="NamaLengkap">
+              <input type="text" class="form-control bg-silver" id="NamaLengkap" name="NamaLengkap">
             </div>
           </div>
 
           <div class="row m-0 mt-2">
             <div class="col">
               <label for="TempatLahir" class="form-label text-danger">Tempat Lahir</label>
-              <input type="text" class="form-control" id="TempatLahir" name="TempatLahir">
+              <input type="text" class="form-control bg-silver" id="TempatLahir" name="TempatLahir">
             </div>
             <div class="col">
               <label for="TanggalLahir" class="form-label text-danger">Tanggal Lahir</label>
-              <input type="text" class="form-control" id="TanggalLahir" name="TanggalLahir">
+              <input type="text" class="form-control bg-silver" id="TanggalLahir" name="TanggalLahir">
             </div>
           </div>
 
           <div class="row m-0 mt-2">
             <div class="col">
               <label for="pendidikan" class="form-label text-danger">Pendidikan</label>
-              <input type="text" class="form-control" id="pendidikan" name="pendidikan">
+              <input type="text" class="form-control bg-silver" id="pendidikan" name="pendidikan">
             </div>
             <div class="col">
               <label for="pekerjaan" class="form-label text-danger">Pekerjaan</label>
-              <input type="text" class="form-control" id="pekerjaan" name="pekerjaan">
+              <input type="text" class="form-control bg-silver" id="pekerjaan" name="pekerjaan">
             </div>
           </div>
 
           <div class="row m-0 mt-2">
             <div class="col">
                 <label for="penghasilan" class="form-label text-danger">Penghasilan</label>
-                <select class="form-select" name="penghasilan" id="penghasilan">
+                <select class="form-select bg-silver" name="penghasilan" id="penghasilan">
                   <option value="<500k"><span> < Rp. 500.000 </span></option>
                   <option value=">500k">> Rp. 500.000</option>
                 </select>

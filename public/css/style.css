@@ -17,6 +17,7 @@
   }
 .footer {
     background: #E38021;
+    z-index: -100;
   }
 @media only screen and (max-width: 768px)
   {
@@ -24,8 +25,8 @@
       margin-top: -24%;
     }
     .footer {
-      margin-top: 0%;
-      height: 20vh;
+      margin-top: -15%;
+      height: 18vh;
     }
   }
 @media only screen and (min-width: 768.5px)
@@ -34,8 +35,8 @@
       margin-top: -10%;
     }
     .footer {
-      margin-top: 0%;
-      height: 35vh;
+      margin-top: -10%;
+      height: 30vh;
     }
   }
 .text-orange {
@@ -50,6 +51,9 @@
 .bg-silver {
     background: #DBDBDB;
 }
+.bg-silver-half {
+    background: #E6E6E6;
+}
 .bg-purple {
     background: #C95DBE;
 }
@@ -59,4 +63,7 @@
     background: #FEFEFE;
     opacity: 0.48;
     height: 100%;
+}
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #E98912 !important;
 }

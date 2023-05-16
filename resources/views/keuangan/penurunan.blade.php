@@ -2,14 +2,16 @@
 
 @section('content')
 
-<div class="row m-0 px-5 mt-5 mb-3">
+<div class="bg-light">
+
+<div class="row m-0 px-5 pt-5 pb-3">
     <div class="col">
         <p>Total UKT saat ini</p>
         <p>Rp. 4.000.000</p>
     </div>
 </div>
 
-<div class="row m-0 px-5 mb-5">
+<div class="row m-0 px-5 pb-5">
     <div class="col-6">
         <label for="tanggal" class="form-label">Permohonan penurunan</label>
         <input type="text" class="form-control bg-silver" id="tanggal" name="tanggal" placeholder="Rp. 0">
@@ -51,10 +53,10 @@
       <input type="file" class="dropify" data-max-file-size-preview="3M">
     </div>
 
-    <div class="col-12 my-4 text-end">
+    <div class="col-12 py-4 text-end">
       <button class="btn btn-warning bg-orange px-md-5 px-3 text-light fw-bold">Ajukan permohonan</button>
     </div>
-
 </div>
 
+</div>
 @endsection

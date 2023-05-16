@@ -19,11 +19,11 @@
           <div class="row m-0 mt-2">
             <div class="col-3">
               <label for="nisn" class="form-label text-danger">NISN</label>
-              <input type="text" class="form-control" id="nisn" name="nisn">
+              <input type="text" class="form-control bg-silver" id="nisn" name="nisn">
             </div>
             <div class="col">
               <label for="AsalSekolah" class="form-label text-danger">Asal Sekolah</label>
-              <input type="text" class="form-control" id="AsalSekolah" name="AsalSekolah">
+              <input type="text" class="form-control bg-silver" id="AsalSekolah" name="AsalSekolah">
             </div>
           </div>
           

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="row m-0 p-5 mb-5">
+<div class="row m-0 p-5 bg-light">
     <div class="col-12">
         <label for="alasan" class="form-label">Alasan pengajuan permohonan penangguhan</label>
         <textarea class="form-control bg-silver py-5" id="alasan" rows="3" name="alasan"></textarea>

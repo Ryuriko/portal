@@ -1,7 +1,9 @@
 <div class="py-5" style="background-image: url('{{asset('media/LandingPage/bg-atas.png')}}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="row m-0 justify-content-between">
       <div class="col ps-5">
-        <img class="img-fluid mt-md-0 mt-2" src="{{asset('media/LandingPage/logo.png')}}">
+        <a href="/">
+          <img class="img-fluid mt-md-0 mt-2" src="{{asset('media/LandingPage/logo.png')}}">
+        </a>
       </div>
   
       <div class="col-auto me-md-0 me-3">
